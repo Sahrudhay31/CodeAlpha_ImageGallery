@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/10/800/600" alt="Nature 1" />
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/id/11/800/600" alt="City 1" />
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/15/800/600" alt="Nature 2" />
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/id/16/800/600" alt="City 2" />
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Preview" />
+        <button class="nav-btn prev">&#10094;</button>
+        <button class="nav-btn next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
