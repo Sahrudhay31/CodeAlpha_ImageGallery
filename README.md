@@ -13,4 +13,4 @@ An interactive image gallery featuring categorization, dynamic filtering, and a 
   * CSS transitions, CSS transforms, and flexible layout design using CSS Grid[cite: 1].
 
 #### Output Preview
-![Task 1 Preview](Task-1_Image-Gallery/Pasted%20image.png)
+![Task 1 Preview](/Pasted%20image.png)
